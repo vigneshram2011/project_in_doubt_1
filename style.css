@@ -1,0 +1,55 @@
+body {
+    background-color: yellow;
+}
+
+#margin {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+}
+
+#score {
+    font-size: 20px;
+    font-weight: bold;
+    color: rebeccapurple;
+}
+
+#timer {
+    font-size: 20px;
+    font-weight: bold;
+    color: rebeccapurple;
+}
+
+#sketch_to_draw {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+h1 {
+    color: blue;
+    background-color: cornsilk;
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px grey;}
+    to {box-shadow: 1px 1px 38px white;}
+}
+
+p {
+    padding-top: 10px;
+    font-size: 20px;
+}
